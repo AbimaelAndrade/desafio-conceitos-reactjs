@@ -6,6 +6,7 @@
 
 body {
   font-size: 14px;
+  font: 14px sans-serif;
 }
 
 div {
@@ -22,18 +23,49 @@ div li + li {
   margin-top: 15px;
 }
 
-button {
-  background: #7159c1;
-  color: #fff;
-  border: 0;
+.btn {
+  margin: 0;
   padding: 10px 15px;
   cursor: pointer;
-  margin-top: 15px;
   font-weight: bold;
   font-size: 14px;
 }
 
-div li button {
-  margin: 0 15px;
+.box {
+  padding: 10px 15px;
+  min-width: 250px;
+  font-size: 14px;
+  color: #333;
+  border: 1px solid #dadada;
+  background: #ececec;
+}
+
+.btn-default {
+  background: #7159c1;
+  border: 1px solid #7159c1;
+  color: #fff;
+}
+
+.btn-remove {
   background: #ca4949;
+  border: 1px solid #CA4949;
+  color: #fff;
+}
+
+.input-field {
+  outline: none;
+  margin: 0;
+  min-width: 250px;
+  padding: 10px 15px;
+  font-size: 14px;
+  background: #fff;
+  border: 1px solid #7159C1;
+}
+
+.add-repositor {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px 0;
+  height: 50px;
 }
