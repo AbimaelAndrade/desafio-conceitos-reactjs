@@ -3,7 +3,7 @@
 
 
 <h2 align="center">
-  Desafio sobre os Conceitos do ReacJs aplicados no Bootcamp GoStack 2020
+  Desafio sobre os Conceitos do ReactJs aplicados no Bootcamp GoStack 2020
 </h2>
 
 <h3 align="center">
